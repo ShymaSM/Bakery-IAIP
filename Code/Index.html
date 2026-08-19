@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rameem Bakery | Freshly Baked. Made with Love.</title>
+
+    <meta name="description"
+        content="Rameem Bakery - Fresh cakes, pastries, bread, brownies and bakery treats in Nagercoil.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="Images/Logo.png" alt="Logo" style="height: 80px; width: auto;">
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#category" class="nav-link">Category</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="cart-button" id="cartButton" aria-label="Shopping cart">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span id="cartCount" style="display:none;"></span>
+                </button>
+                <span class="nav-separator">|</span>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+
+            <!-- Background organic shapes -->
+            <div class="bg-shape top-left"></div>
+            <div class="bg-shape center-small"></div>
+            <div class="bg-shape right-large"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+                    <span class="eyebrow">Indulge in Our</span>
+                    <h1>Delicious Bakery</h1>
+                    <p>
+                        Experience Bliss in Every Bite: Discover the Magic of Our Bakery, 
+                        Where Passion, Tradition, and Flavor Come Together to Create Memories.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="primary-btn">Order Now</a>
+                        <a href="#about" class="ghost-btn">Explore More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Category Slider -->
+                    <div class="category-slider">
+                        <div class="slider-header">
+                            <span class="slider-title">Our category</span>
+                            <div class="slider-line"></div>
+                        </div>
+                        <div class="slider-content">
+                            <button class="slider-nav prev"><i class="fa-solid fa-angle-left"></i></button>
+                            
+                            <div class="slider-cards">
+                                <div class="cat-card">
+                                    <img src="Images/cake 3.jpg" alt="Bread">
+                                    <span>Bread <i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                                <div class="cat-card">
+                                    <img src="Images/Cake 2.jpg" alt="Cakes">
+                                    <span>Cakes <i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                                <div class="cat-card">
+                                    <img src="Images/Cookies.jpg" alt="Cookies">
+                                    <span>Cookies <i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+
+                            <button class="slider-nav next"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="Images/Cake 1.jpg" alt="Delicious Bakery Basket">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+
+            <div class="container about-container">
+
+                <div class="about-images">
+
+                    <div class="about-image-main">
+                        <img
+                            src="Images/cake 3.jpg"
+                            alt="Fresh bakery bread">
+                    </div>
+
+                    <div class="about-image-small">
+                        <img
+                            src="Images/Cookies.jpg"
+                            alt="Fresh bakery cookies">
+                    </div>
+
+                </div>
+
+                <div class="about-content">
+
+                    <span class="section-tag">OUR STORY</span>
+
+                    <h2>
+                        A Little Bit of
+                        <span>Sweetness</span>
+                    </h2>
+
+                    <p>
+                        At Rameem Bakery, we believe that every day deserves
+                        something delicious. From soft breads to beautiful
+                        cakes and crispy pastries, our treats are prepared
+                        with care and served fresh.
+                    </p>
+
+                    <p>
+                        Whether you are celebrating a special moment or simply
+                        craving something sweet, we are here to make your day
+                        a little more delicious.
+                    </p>
+
+                    <div class="about-features">
+
+                        <div class="feature">
+                            <i class="fa-solid fa-bread-slice"></i>
+                            <span>Freshly Baked</span>
+                        </div>
+
+                        <div class="feature">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Made with Love</span>
+                        </div>
+
+                        <div class="feature">
+                            <i class="fa-solid fa-star"></i>
+                            <span>Quality Taste</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+        <section class="menu-section section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">OUR MENU</span>
+
+                    <h2>
+                        Our <span>Favorites</span>
+                    </h2>
+
+                    <p>
+                        A delicious selection of freshly prepared bakery
+                        favorites.
+                    </p>
+
+                </div>
+
+
+                <div class="product-grid">
+
+                    <!-- Product 1 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="Images/Cake 2.jpg"
+                                alt="Chocolate cake">
+
+                            <span class="product-badge">Popular</span>
+
+                            <button class="wishlist" aria-label="Add to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h3>Chocolate Cake</h3>
+
+                            <p>
+                                Rich chocolate layers with creamy frosting.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>₹499</strong>
+
+                                <button
+                                    class="add-cart"
+                                    data-product="Chocolate Cake"
+                                    data-price="499">
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 2 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="Images/Cake 4.jpg"
+                                alt="Cream cake">
+
+                            <button class="wishlist" aria-label="Add to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h3>Fresh Cream Cake</h3>
+
+                            <p>
+                                Soft sponge with fresh cream and fruits.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>₹450</strong>
+
+                                <button
+                                    class="add-cart"
+                                    data-product="Fresh Cream Cake"
+                                    data-price="450">
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 3 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="Images/Cup cake 2.jpg"
+                                alt="Cupcake">
+
+                            <button class="wishlist" aria-label="Add to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <h3>Butter Croissant</h3>
+
+                            <p>
+                                Golden, crispy and wonderfully buttery.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>₹70</strong>
+
+                                <button
+                                    class="add-cart"
+                                    data-product="Butter Croissant"
+                                    data-price="70">
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 4 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="Images/Cake 1.jpg"
+                                alt="Chocolate brownie">
+
+                            <span class="product-badge">Fresh</span>
+
+                            <button class="wishlist" aria-label="Add to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h3>Chocolate Brownie</h3>
+
+                            <p>
+                                Soft, rich and deliciously fudgy.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>₹100</strong>
+
+                                <button
+                                    class="add-cart"
+                                    data-product="Chocolate Brownie"
+                                    data-price="100">
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 5 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="Images/Cookies 2.jpg"
+                                alt="Fresh cookies">
+
+                            <button class="wishlist" aria-label="Add to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <h3>Fresh Cookies</h3>
+
+                            <p>
+                                Crispy, buttery and perfect with tea.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>₹120</strong>
+
+                                <button
+                                    class="add-cart"
+                                    data-product="Fresh Cookies"
+                                    data-price="120">
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 6 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="Images/cake 3.jpg"
+                                alt="Fresh pastry">
+
+                            <button class="wishlist" aria-label="Add to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h3>Fresh Pastry</h3>
+
+                            <p>
+                                Soft pastry topped with smooth cream.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>₹80</strong>
+
+                                <button
+                                    class="add-cart"
+                                    data-product="Fresh Pastry"
+                                    data-price="80">
+                                    Add to Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OFFER ================= -->
+        <section class="offer-section section" id="offers">
+
+            <div class="container">
+
+                <div class="offer-banner">
+
+                    <div class="offer-content">
+
+                        <span class="section-tag">SPECIAL MOMENT</span>
+
+                        <h2>
+                            Something Sweet
+                            <span>for Everyone</span>
+                        </h2>
+
+                        <p>
+                            Treat yourself and your loved ones to something
+                            freshly baked and delicious.
+                        </p>
+
+                        <a href="#menu" class="primary-btn">
+                            Explore Offers
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="offer-image">
+
+                        <img
+                            src="Images/Cake 4.jpg"
+                            alt="Beautiful bakery cake">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEEDBACK ================= -->
+        <section class="feedback-section section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">CUSTOMER LOVE</span>
+
+                    <h2>
+                        What Our <span>Customers Say</span>
+                    </h2>
+
+                    <p>
+                        Your feedback means a lot to us.
+                    </p>
+
+                </div>
+
+
+                <div class="feedback-layout">
+
+                    <div class="feedback-form-card">
+
+                        <h3>Share Your Experience</h3>
+
+                        <p>
+                            Tell us what you loved about Rameem Bakery.
+                        </p>
+
+                        <form id="feedbackForm">
+
+                            <div class="input-group">
+
+                                <label for="customerName">
+                                    Your Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="customerName"
+                                    placeholder="Enter your name"
+                                    required>
+
+                            </div>
+
+                            <div class="input-group">
+
+                                <label for="customerFeedback">
+                                    Your Feedback
+                                </label>
+
+                                <textarea
+                                    id="customerFeedback"
+                                    rows="5"
+                                    placeholder="Write your feedback..."
+                                    required></textarea>
+
+                            </div>
+
+                            <button type="submit" class="primary-btn full-btn">
+                                Submit Feedback
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </form>
+
+                    </div>
+
+
+                    <div class="reviews-area" id="reviewsArea">
+
+                        <div class="review-card">
+
+                            <div class="review-top">
+
+                                <div class="review-avatar">
+                                    R
+                                </div>
+
+                                <div>
+                                    <strong>Happy Customer</strong>
+
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <p>
+                                “Fresh products, lovely taste and really
+                                delicious cakes!”
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="contact-section section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <div class="contact-content">
+
+                        <span class="section-tag">VISIT US</span>
+
+                        <h2>
+                            Come & Enjoy
+                            <span>Something Delicious</span>
+                        </h2>
+
+                        <div class="contact-details">
+
+                            <div class="contact-item">
+
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <div>
+                                    <strong>Our Location</strong>
+
+                                    <p>
+                                        13/2, Junction, Swamiyar Madam,
+                                        Nagercoil, Tamil Nadu 629158
+                                    </p>
+
+                                    <small>
+                                        Near Indian Overseas Bank
+                                    </small>
+                                </div>
+
+                            </div>
+
+
+                            <div class="contact-item">
+
+                                <span class="contact-icon">
+                                    <i class="fa-regular fa-clock"></i>
+                                </span>
+
+                                <div>
+                                    <strong>Opening Hours</strong>
+
+                                    <p>
+                                        Monday – Sunday
+                                    </p>
+
+                                    <small>
+                                        8:00 AM – 10:30 PM
+                                    </small>
+                                </div>
+
+                            </div>
+
+
+                            <div class="contact-item">
+
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </span>
+
+                                <div>
+                                    <strong>Phone</strong>
+
+                                    <p>
+                                        +91 94428 07828
+                                    </p>
+
+                                    <small>
+                                        Replace with bakery phone number
+                                    </small>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Rameem+Bakery+Swamiyar+Madam+Nagercoil"
+                            target="_blank"
+                            class="primary-btn">
+
+                            Get Directions
+                            <i class="fa-solid fa-location-arrow"></i>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-image">
+
+                        <img
+                            src="Images/Cake 2.jpg"
+                            alt="Fresh bakery food">
+
+                        <div class="location-label">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <div>
+                                <strong>Rameem Bakery</strong>
+                                <span>Swamiyar Madam, Nagercoil</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+
+                    <span class="logo-icon">
+                        <i class="fa-solid fa-cake-candles"></i>
+                    </span>
+
+                    <span>
+                        <strong>Rameem</strong>
+                        <small>BAKERY</small>
+                    </span>
+
+                </a>
+
+                <p>
+                    Freshly Baked. Made with Love.
+                </p>
+
+            </div>
+
+
+            <div class="footer-info">
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+                        13/2, Junction, Swamiyar Madam,
+                        Nagercoil, Tamil Nadu 629158
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+                        +91 94428 07828
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-clock"></i>
+
+                    <span>
+                        8:00 AM – 10:30 PM (Monday – Sunday)
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span>
+                        Takeout and delivery options available
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Rameem Bakery. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART MODAL ================= -->
+
+    <div class="cart-modal" id="cartModal">
+
+        <div class="cart-overlay" id="cartOverlay"></div>
+
+        <div class="cart-panel">
+
+            <div class="cart-header">
+
+                <h3>Your Cart</h3>
+
+                <button id="closeCart" aria-label="Close cart">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+
+            <div class="cart-items" id="cartItems">
+
+                <div class="empty-cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <p>Your cart is empty.</p>
+                </div>
+
+            </div>
+
+            <div class="cart-footer">
+
+                <div class="cart-total">
+
+                    <span>Total</span>
+
+                    <strong id="cartTotal">
+                        ₹0
+                    </strong>
+
+                </div>
+
+                <button class="primary-btn checkout-btn" id="checkoutBtn">
+                    Order Now
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Toast -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Added to cart</span>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
