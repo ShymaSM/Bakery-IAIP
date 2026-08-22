@@ -116,7 +116,7 @@ button {
     position: absolute;
     top: 5px; /* Brought down an inch */
     left: -15px; /* Slightly off center for the effect */
-    height: 30px;
+    height: 27mm;
     width: auto;
     z-index: 100;
     filter: drop-shadow(0 8px 16px rgba(70, 42, 27, 0.15));
