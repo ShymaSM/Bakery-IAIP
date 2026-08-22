@@ -81,6 +81,13 @@ button {
     height: 90px;
     background: transparent;
     z-index: 1000;
+    transition: var(--transition);
+}
+
+.header.scrolled {
+    background: var(--white);
+    box-shadow: var(--shadow);
+    height: 70px;
 }
 
 .nav-container {
@@ -113,7 +120,13 @@ button {
     width: auto;
     z-index: 100;
     filter: drop-shadow(0 8px 16px rgba(70, 42, 27, 0.15));
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.header.scrolled .logo img {
+    height: 45px;
+    top: 12px;
+    left: 0px;
 }
 
 .logo:hover img {
